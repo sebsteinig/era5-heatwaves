@@ -11,7 +11,7 @@ The final visualisation is shown at the top.
 
 Input data is too large for GitHub, but can be freely obtained from the sources below:
 
-## Input data
+## input data
 ### ERA5 reanalysis
 Input data includes:
 1. era5_2t_hourly_202307.nc: Hourly data for July 2023.
@@ -26,8 +26,7 @@ Data can be downloaded from the [Copernicus Climate Data Store](https://cds.clim
 Not essential, only used for a summary metric of the global population affected by the July heatwaves. Data has been used at 15 arc-minute resolution
 and can be downloaded from [SEDAC](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4). The GPW data collection is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0).
 
-## running the notebooks
-
+## running the notebook
 Easiest way to run the notebook locally is to first download the repo with
 
 ```
