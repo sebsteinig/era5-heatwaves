@@ -19,8 +19,14 @@ Input data includes:
 3. era5_2t_daymax_clim1991-2020_lowpass_07.nc: Daily maximum 2m temperature climatology for July based on the 1991-2020 reference period.
 4. era5_2t_daymin_clim1991-2020_lowpass_07.nc: Daily minimum 2m temperature climatology for July based on the 1991-2020 reference period.
 
+Method used to generate the climatology files:
+- The daily mean temperatures are calculated by taking the average of the 24 hourly values for each day, from 00 to 23 UTC.
+- The daily max temperatures correspond to the highest hourly value for each day.
+- The daily min temperatures correspond to the lowest hourly value for each day.
+- A lowpass filter is applied to each daily climatology to remove submonthly variability.
+- 
 Data can be downloaded from the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/home) and is published under a 
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). 
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). More info in the [ERA5 documentation](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation).
 
 ### Gridded Population of the World (GPW), v4
 Not essential, only used for a summary metric of the global population affected by the July heatwaves. Data has been used at 15 arc-minute resolution
