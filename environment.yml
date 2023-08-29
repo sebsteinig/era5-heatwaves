@@ -1,0 +1,13 @@
+name: assessment
+channels:
+ - conda-forge
+ - nodefaults
+dependencies:
+ - python=3.9*
+ - numpy
+ - matplotlib
+ - jupyterlab
+ - xarray
+ - netCDF4
+ - cartopy
+ - python-cdo
