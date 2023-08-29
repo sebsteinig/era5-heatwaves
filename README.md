@@ -1,5 +1,7 @@
 # era5-heatwaves
 
+https://github.com/sebsteinig/era5-heatwaves/assets/80361118/a9d32081-6e6f-4741-99f6-553462957f84
+
 Analysis and visualisation of ERA5 hourly 2m air temperature for July 2023. This was the warmest month on record and was characterised
 by multiple, simultaneous heatwaves across the Northern Hemisphere (and winter warm spells in the Southern Hemisphere).
 
