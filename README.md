@@ -6,7 +6,7 @@ Analysis and visualisation of ERA5 hourly 2m air temperature for July 2023. This
 by multiple, simultaneous heatwaves across the Northern Hemisphere (and winter warm spells in the Southern Hemisphere).
 
 The analysis was done with Python and is documented in the Jupyter Notebook "era5_july-2023_heatwaves.ipynb". Processed temperature data
-and calculated heatwave metrics are exported to bitmap (PNG) for visualisation with the [ClimateArchive engine](climatearchive.org). 
+and calculated heatwave metrics are exported to bitmap (PNG) for visualisation with the [ClimateArchive engine](https://climatearchive.org). 
 The final visualisation is shown at the top.
 
 Input data is too large for GitHub, but can be freely obtained from the sources below:
