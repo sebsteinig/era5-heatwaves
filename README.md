@@ -24,7 +24,7 @@ Method used to generate the climatology files:
 - The daily max temperatures correspond to the highest hourly value for each day.
 - The daily min temperatures correspond to the lowest hourly value for each day.
 - A lowpass filter is applied to each daily climatology to remove submonthly variability.
-- 
+  
 Data can be downloaded from the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/home) and is published under a 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). More info in the [ERA5 documentation](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation).
 
