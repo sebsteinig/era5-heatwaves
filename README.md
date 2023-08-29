@@ -7,7 +7,7 @@ by multiple, simultaneous heatwaves across the Northern Hemisphere (and winter w
 
 The analysis was done with Python and is documented in the Jupyter Notebook "era5_july-2023_heatwaves.ipynb". Processed temperature data
 and calculated heatwave metrics are exported to bitmap (PNG) for visualisation with the [ClimateArchive engine](https://climatearchive.org). 
-The final visualisation is shown at the top.
+The visualisation renders in real time in any web browser using the 3D JavaScript library [three.js](https://threejs.org). The final visualisation is shown at the top.
 
 Input data is too large for GitHub, but can be freely obtained from the sources below:
 
