@@ -6,7 +6,8 @@ Analysis and visualisation of ERA5 hourly 2m air temperature for July 2023. This
 by multiple, simultaneous heatwaves across the Northern Hemisphere (and winter warm spells in the Southern Hemisphere).
 
 The analysis was done with Python and is documented in the Jupyter Notebook "era5_july-2023_heatwaves.ipynb". Processed temperature data
-and calculated heatwave metrics are exported to bitmap (PNG) for visualisation with the [ClimateArchive engine](climatearchive.org).
+and calculated heatwave metrics are exported to bitmap (PNG) for visualisation with the [ClimateArchive engine](climatearchive.org). 
+The final visualisation is shown at the top.
 
 Input data is too large for GitHub, but can be freely obtained from the sources below:
 
@@ -16,9 +17,9 @@ Input data includes:
 1. era5_2t_hourly_202307.nc: Hourly data for July 2023.
 2. era5_2t_daymean_clim1991-2020_lowpass_07.nc: Daily mean 2m temperature climatology for July based on the 1991-2020 reference period.
 3. era5_2t_daymax_clim1991-2020_lowpass_07.nc: Daily maximum 2m temperature climatology for July based on the 1991-2020 reference period.
-4. 4. era5_2t_daymin_clim1991-2020_lowpass_07.nc: Daily minimum 2m temperature climatology for July based on the 1991-2020 reference period.
+4. era5_2t_daymin_clim1991-2020_lowpass_07.nc: Daily minimum 2m temperature climatology for July based on the 1991-2020 reference period.
 
-Data can be downloaded from the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/home) and ispublished under a 
+Data can be downloaded from the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/home) and is published under a 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). 
 
 ### Gridded Population of the World (GPW), v4
